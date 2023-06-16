@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    height: 5vh;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vh 2vw 0 0;
+    align-items: center;
+}
+
+#perfil {
+    display: flex;
+    width: 160px;
+    gap: 24px;
+}
+
+#perfil a {
+    color: #084F8C;
+}
+
+main {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+#conteiner_pesquisa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 360px;
+}
+
+.pesquisa_barra {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 400px;
+    height: 32px;
+}
+
+#buscador {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    border-style: none;
+    height: 32px;
+    width: 360px;
+    border-radius: 15px;
+    outline: none;
+}
+
+#lupa {
+    height: 20px;
+}
+
+#conteiner_pesquisa h4{
+    padding-top: 22px;
+    color: #6C6C6C;
+}
