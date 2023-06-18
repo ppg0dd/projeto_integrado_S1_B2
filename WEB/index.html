@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +11,46 @@
         <nav>
             <div id="perfil">
                 <a href="">Meu perfil</a>
-                <a href=""><img src="images/person.png" alt=""></a>
+                <a href=""><img src="./assets/person.png" alt=""></a>
             </div>
-            <div id="bars"><img src="./images/bars.png" alt=""></div>
+            <!--BARRA-->
+            <div>
+                <input type="checkbox" id="bars">
+                <label for="bars">
+                    <img src="./assets/bars.png" alt="">
+                </label>
+
+                <ul class="lista-barra">
+                    <div>
+                        <li class="pg-inicial">
+                            <a href="#">Página Inicial</a> 
+                            <a href=""><img src="./assets/home.png" alt=""></a>
+                        </li>
+                        <li class="m-perfil">
+                            <a href="#">Meu perfil</a> 
+                            <a href=""><img src="./assets/perfil_exemplo.png" alt=""></a>
+                        </li>
+                        <li class="contact">
+                            <a href="#">Contatos</a>  
+                            <a href=""><img src="./assets/contatos.png" alt=""></a>
+                        </li>
+                    </div>
+                    <div class="ajuda">
+                        <li class="ajud">
+                            <a href="#">Ajuda</a> 
+                            <a href="#"><img src="./assets/ajuda.png" alt=""></a> 
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
         <div id="conteiner_pesquisa">
-            <img src="./images/logo fortes.png" id="logo" alt="">
+            <img src="./assets/logo fortes.png" id="logo" alt="">
             <div class="pesquisa_barra">
                 <input type="text" id="buscador" placeholder="Buscar...">
-                <img src="./images/lupa.png" id="lupa" alt="">
+                <img src="./assets/lupa.png" id="lupa" alt="">
             </div>
             <h4>“pesquise os funcionários que você procura”</h4>
         </div>
