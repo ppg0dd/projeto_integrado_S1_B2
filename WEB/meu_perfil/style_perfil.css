@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+/*HEADER*/
+
+header {
+  height: 5vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2vh 2vw 0 0;
+  align-items: center;
+}
+
+#editar-p {
+  padding-right: 77vw;
+  color: #0511F2;
+}
+
+
+#perfil {
+  display: flex;
+  width: 160px;
+  gap: 24px;
+}
+
+#perfil a {
+  color: #084F8C;
+}
+
+/*BARS*/
+
+.lista-barra {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0vw;
+  background-color: #04BF8A;
+  border: 1px solid black;
+  border-radius: 24px;
+  width: 240px;
+}
+
+.ajuda {
+  padding-top: 100px;
+}
+
+#bars:checked ~ .lista-barra {
+  display: block;
+}
+
+#bars {
+  display: none;
+}
+
+.lista-barra li {
+  padding: 1em;
+  width: 10vw;
+}
+
+.pg-inicial {
+  display: flex;
+  gap: 30px;
+}
+
+.m-perfil {
+  display: flex;
+  gap: 50px;
+}
+
+.contact {
+  display: flex;
+  gap: 60px;
+}
+
+.ajud {
+  display: flex;
+  gap: 80px;
+}
+/*MAIN*/
+
+main {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.profile-box {
+  border-radius: 20px;
+  margin-left: 200px;
+  width: 280px;
+  height: 500px;
+  padding: 60px;
+  margin-top: 80px;
+  text-align: center;
+  background-color: lightgray;
+  border: black solid 1px;
+}
+
+.profile-box img {
+  width: 120px;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: 50px;
+  border: solid 1px;
+}
+
+.profile-box h2 {
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.profile-box p {
+  margin-top: 80px;
+  font-size: 22px;
+}
+
+.editar {
+  margin-left: 100px;
+  font-size: 10px;
+}
+
+.box2 {
+  float: right;
+  border-radius: 30px;
+  margin-right: 400px;
+  background-color: lightgray;
+  width: 800px;
+  height: 220px;
+  border: solid 1px;
+  margin-left: 400px;
+  margin-bottom: 200px;
+}
+
+.box2 h2 {
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin-right: 1px;
+}
+
+.box2 .column {
+  width: 50%;
+}
+
+.box2 .column ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.box2 .column ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1px;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.trovoada {
+  background-color: lightgray;
+  border-radius: 50px;
+  width: 800px;
+  height: 220px;
+  border: solid 1px;
+  text-align: center;
+}
+
+.trovoada h2{
+  text-align: left;
+  margin-left: 40px;
+  
+}
+
+.trovoada p{
+
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.trovoada ul{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 20px;
+}
