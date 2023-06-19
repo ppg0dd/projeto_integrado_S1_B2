@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+/*HEADER*/
+
+.logo_pqp {
+    height: 90px;
+}
+
+header {
+    height: 5vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2vh 2vw 0 0;
+}
+
+#perfil {
+    display: flex;
+    width: 160px;
+    gap: 24px;
+}
+
+#perfil a {
+    color: #084F8C;
+}
+
+/*BARS*/
+
+.lista-barra {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0vw;
+    background-color: #04BF8A;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 240px;
+}
+
+.ajuda {
+    padding-top: 100px;
+}
+
+#bars:checked ~ .lista-barra {
+    display: block;
+}
+
+#bars {
+    display: none;
+}
+
+.lista-barra li {
+    padding: 1em;
+    width: 10vw;
+}
+
+.pg-inicial {
+    display: flex;
+    gap: 30px;
+}
+
+.m-perfil {
+    display: flex;
+    gap: 50px;
+}
+
+.contact {
+    display: flex;
+    gap: 60px;
+}
+
+.ajud {
+    display: flex;
+    gap: 80px;
+}
+/*MAIN*/
+
+main {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main img {
+    height: 70vh;
+}
+
+
+#conteiner_pesquisa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa_barra {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 400px;
+    height: 32px;
+}
+
+#buscador {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    border-style: none;
+    height: 32px;
+    width: 360px;
+    border-radius: 15px;
+    outline: none;
+}
+
+#lupa {
+    height: 20px;
+}
+
+#conteiner_pesquisa h4{
+    padding-top: 22px;
+    color: #6C6C6C;
+}
