@@ -1,5 +1,5 @@
 # PROJETO INTEGRADOR
-- Grupo: Pedro Henrique Santos dos Reis, Giovanni Milan Pinto, João Davi Lourenço de mello
+- Grupo: Pedro Henrique Santos dos Reis, Giovanni Milan Câmara Pinto, João Davi Lourenço de mello
 > Projeto feito em conjunto com 3 matérias (Web, Banco de dados e UX) sobre a empresa FORTES
 
 ## WEB
